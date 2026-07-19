@@ -7,7 +7,7 @@ export default function ProtectedRoute({children})
     const {isAuthenticated}=useContext(AuthContext);
     if(isAuthenticated===false)
     {
-        return <Navigate to="/sigin" replace={true}/>;
+        return <Navigate to="/signin" replace={true}/>;
     }
     return children;
 }
