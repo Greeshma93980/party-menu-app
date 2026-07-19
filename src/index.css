@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.login-page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box-card {
+  background-color: #2a2a2a;
+  padding: 30px;
+  border-radius: 8px;
+  width: 350px;
+  text-align: center;
+}
+
+.login-error-alert-box {
+  background-color: #5a1a1a;
+  color: #ff9999;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.form-input-field-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-input-field-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.form-input-field-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #444;
+  background-color: #333;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.login-action-submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff4757;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2a2a2a;
+  padding: 15px 30px;
+}
+
+.nav-links a, .nav-links button {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.logout-btn {
+  background-color: #444;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.menu-controls {
+  padding: 20px;
+  text-align: center;
+}
+
+.search-input {
+  width: 60%;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #444;
+  background-color: #2a2a2a;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.category-filters button {
+  background-color: #2a2a2a;
+  color: white;
+  border: 1px solid #444;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.recipe-card {
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #333;
+}
+
+.recipe-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.recipe-info {
+  padding: 15px;
+}
+
+.recipe-desc {
+  color: #ccc;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.recipe-tag {
+  display: inline-block;
+  background-color: #444;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-details-btn {
+  background-color: #ff4757;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.save-btn {
+  background: none;
+  border: 1px solid #ff4757;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.detail-page-container {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+}
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.back-btn, .save-detail-btn {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.detail-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.detail-section {
+  margin-top: 20px;
+}
+
+.ingredients-list, .instructions-list {
+  padding-left: 20px;
+}
+
+.notfound-page-wrapper, .loading-container, .error-container, .empty-saved-state {
+  text-align: center;
+  padding: 50px;
+}
+
+.notfound-card {
+  background-color: #2a2a2a;
+  padding: 40px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.notfound-home-link, .browse-btn {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #ff4757;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.saved-header {
+  padding: 20px;
+}
